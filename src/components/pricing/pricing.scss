@@ -1,0 +1,105 @@
+$borderColor: #FF9D9D;
+
+.bck_black {
+    background: #3c3c3c;
+}
+
+.pricing_section {
+    padding: 70px 0px;
+
+    @media (max-width:881px ) {
+        padding: 30px 0px;
+    }
+}
+
+.pricing_section h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+
+    @media (max-width: 881px) {
+        font-size: 25px;
+    }
+}
+
+.pricing_wrapper {
+   display: flex;
+    font-size: 30px;
+
+    @media (max-width:360px) {
+        
+        display: block;
+        flex-wrap: wrap;
+        
+
+    }
+}
+.pricing_wrapper .pricing_item{
+    flex-grow: 1;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+     @media (max-width: 881px) {
+         padding: 5px;
+          flex-grow: 0;
+          width: 30%;
+          margin-left: 15px;
+     }
+     @media (max-width: 851px) {
+         padding: 5px;
+          flex-grow: 0;
+          width: 25%;
+          margin-left: 5%;
+     }
+}
+
+.pricing_wrapper .pricing_inner_wrapper {
+    border:2px solid $borderColor;
+    padding: 50px 20px;
+    @media (max-width: 881px) {
+        padding: 20px 10px;
+    }
+
+    @media (max-width: 806px) {
+        padding: 10px 5px;
+    }
+}
+
+.pricing_inner_wrapper .pricing_title {
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid $borderColor;
+    padding-bottom: 20px;
+
+    
+}
+.pricing_inner_wrapper .pricing_title span:nth-child(1) {
+    font-size: 50px;
+    display: block;
+    @media (max-width: 881px) {
+        font-size: 20px;
+    }
+}
+.pricing_inner_wrapper .pricing_title span:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 300;
+    @media (max-width: 881px) {
+        font-size: 20px;
+    }
+}
+.pricing_inner_wrapper .pricing_description {
+    color: #b8b8b8;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0px;
+    min-height: 70px;
+}
+
+.pricing_inner_wrapper .pricing_buttons {
+     text-align: center;
+}
+

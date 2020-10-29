@@ -1,0 +1,148 @@
+
+$color-azure : azure;
+$text-heading-color: #010A43;
+$Anothercolor :  #FFC2C2;
+$NextColor: #FF9D9D;
+$border-color : #FF2E63;
+
+
+.game-info-wrapper {
+    height: 60vh;
+    background-color: $color-azure;
+    
+    @media (max-width: 646px) {
+        height: 170vh;  
+    }
+
+}
+
+.text-heading {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 52px;
+    text-transform: capitalize;
+    color: $text-heading-color ;
+
+    @media (max-width:1132px) {
+        font-size: 45px; 
+    }
+    @media (max-width:580px) {
+        font-size: 43px; 
+    }
+    @media (max-width: 360px) {
+        font-size: 40px; 
+    }
+}
+
+.text-heading:after {
+    content: "";
+    display: block;
+    clear: both;
+    border-bottom: 3px solid $border-color;
+    width: 251px;
+    margin-left: 41.5%;
+
+    @media (max-width: 1200px) {
+        margin-left: 40%;
+        width: 251px; 
+    }
+
+    @media (max-width: 1132px) {
+        margin-left: 40%;
+        width: 239px; 
+    }
+    @media (max-width: 1081px) {
+        margin-left: 40%;
+        width: 230px; 
+    }
+    @media (max-width: 1052px) {
+        margin-left: 39%;
+        width: 230px; 
+    }
+    @media (max-width: 932px) {
+        margin-left: 38%;
+        width: 230px; 
+    }
+    @media (max-width: 879px) {
+        margin-left: 37%;
+        width: 230px; 
+    }
+    @media (max-width: 783px) {
+        margin-left: 36%;
+        width: 230px; 
+    }
+    @media (max-width: 717px) {
+        margin-left: 34%;
+        width: 230px; 
+    }
+    @media (max-width: 638px) {
+        margin-left: 32%;
+        width: 230px; 
+    }
+    @media (max-width: 580px) {
+        margin-left: 30%;
+        width: 230px; 
+    }
+
+    @media (max-width: 500px) {
+        margin-left: 28%;
+        width: 225px; 
+    }
+    @media (max-width: 415px) {
+         margin-left: 24%;
+         width: 220px; 
+    }
+    @media (max-width: 360px) {
+         margin-left: 24%;
+         width: 200px; 
+    }
+}
+
+
+////////////////////
+.game-card-container{
+    display: flex;
+    margin-top: 20px;
+    margin: 0 auto;  
+    max-width: 960px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+     
+     @media (max-width: 646px) {
+        display: block;
+     }
+    
+}
+
+.game_img {
+    width: 100%;
+    height: 200px;
+}
+
+.game-card-info{
+    border: 1px solid $NextColor;
+    margin: 30px;
+    box-shadow: 0px 10px 10px  $text-heading-color;
+    border-radius: 5px;
+
+    @media (max-width: 732px) {
+       margin: 25px; 
+    }
+    @media (max-width: 710px) {
+       margin: 20px; 
+    }
+    @media (max-width: 700px) {
+       margin: 15px; 
+    }
+    @media (max-width: 665px) {
+       margin: 10px; 
+    }
+}
+
+.game-card-info h3, p {
+    padding: 10px;
+    text-align: center;
+    
+}

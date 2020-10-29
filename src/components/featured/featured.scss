@@ -1,0 +1,47 @@
+$text-color : #FF2E63;
+
+.buuton {
+    text-align: center;
+    
+}
+
+.buuton a {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.game_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+     height: 160px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);   
+    
+}
+
+.game_name .game_wrapper {
+
+    height: 121px;
+    margin: 2px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-transform: capitalize;
+
+.buuton{
+    margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+    font-size: 17px;
+}
+@media (max-width: 360px) {
+    font-size: 17px;
+}
+
+}

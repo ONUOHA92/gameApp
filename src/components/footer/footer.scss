@@ -1,0 +1,13 @@
+  $Anothercolor :  #FF2E63;
+
+footer {
+    padding:50px 0px;
+    text-align: center;
+    font-size: 40px;
+    color:#ffffff;
+    background: $Anothercolor;
+}
+
+footer .footer_copyright {
+    font-size: 18px;
+}
